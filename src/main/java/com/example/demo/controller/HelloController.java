@@ -22,7 +22,7 @@ public class HelloController {
             content = @Content(schema = @Schema(implementation = String.class)))
     @GetMapping("/hello")
     public String hello() {
-        return "Hello from FEATURE branch!";
+        return "Trying direct push to MAIN";
     }
 
 

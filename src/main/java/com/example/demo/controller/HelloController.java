@@ -22,7 +22,7 @@ public class HelloController {
             content = @Content(schema = @Schema(implementation = String.class)))
     @GetMapping("/hello")
     public String hello() {
-        return "Hello OpenAPI, with GIT done and CI/CD Done !";
+        return "Hello from FEATURE branch!";
     }
 
 
